@@ -1,0 +1,187 @@
+@import url('https://fonts.google.com/specimen/Inter');
+:root
+{
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+}
+p
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header .logo{
+    color: var(--Very-dark-blue);
+    display: inline-block;
+}
+.header .logo a
+{
+    font-family: "Inter" sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav{
+    display: inline-block;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.header .nav ul li{
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    
+}
+.header .nav ul li a
+{
+    color: var(--Dark-grayish-blue);
+    font-family: "Inter" sans-serif;
+    font-size: 15px;
+}
+.header .nav ul li a:hover
+{
+    color: var(--Soft-red);
+}
+.main
+{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main .droite
+{
+    background-color: var(--Very-dark-blue);
+    width: 360px;
+    margin-right: 50px;
+    height: 480px;
+}
+.droite .text
+{
+    padding: 50px 30px;
+    color: var(--Dark-grayish-blue);
+    font-family: "Inter" sans-serif;
+}
+hr
+{
+   margin: 20px 0; 
+}
+.droite .text h3{
+    color: var(--Off-white);
+}
+.droite .text h3:hover{
+    color: var(--Soft-orange);
+}
+.droite .text h3
+{
+    margin-bottom: 10px;
+}
+.droite .text .text1
+{
+    margin-bottom: 20px;
+}
+.droite .text h2
+{
+    color: var(--Soft-orange);
+}
+.main .gauche
+{
+    width: 900px;
+}
+.main .gauche .gauchebas
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.main .gauche .gauchebas .textgauche
+{
+    width: 300px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+.main .gauche .gauchebas .textdroite
+{
+    width: 300px;
+    
+}
+.main .gauche .gauchebas .textdroite a
+{
+    width: 105px;
+    display: inline-block;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    margin-top: 20px;
+    padding: 2px 5px;
+}
+.main .gauche img
+{
+    width: 900px;
+    height: 280px;
+}
+footer
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+footer .element
+{
+    display: flex;
+}
+footer .element img
+{
+    width: 120px;
+    padding-right: 20px;
+}
+footer .element .description
+{
+    width: 300px;
+}
+footer .element .description h3
+{
+    color: var(--Grayish-blue);
+    
+}
+footer .element .description h4
+{
+    color: var(--Very-dark-blue);
+}
+footer .element .description h4:hover
+{
+    color: var(--Soft-red);
+}
+footer .element .description p
+{
+    color: var(--Dark-grayish-blue);
+}
